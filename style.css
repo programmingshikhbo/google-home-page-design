@@ -1,0 +1,102 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+     display: flex;
+     align-items: center;
+     justify-content: end;
+     margin: 10px 15px;
+}
+nav a{
+     font-size: 16px;
+     font-weight: 600;
+     color: gray;
+     text-decoration: none;
+     padding: 10px 14px;
+}
+nav a:hover{
+     text-decoration: underline;
+}
+.menu-icon, .gamil-logo{
+     width: 40px;
+     padding: 5px;
+     border-radius: 50%;
+}
+.menu-icon:hover{
+     opacity: 0.7;
+}
+
+
+/* Header code start */
+
+header{
+     width: 60%;
+     margin: 90px auto 20px auto;
+}
+.google-img{
+     display: block;
+     margin: 0 auto;
+}
+.search-box{
+     width: 600px;
+     margin: 22px auto;
+     position: relative;
+}
+.search-box input{
+     display: block;
+     width: 100%;
+     border: 1px solid #ddd;
+     font-size: 16px;
+     padding: 13px;
+     border-radius: 25px;
+     outline: none;
+     box-shadow: 5px 2px 10px rgba(128, 128, 128, 0.626);
+     padding-left: 50px;
+}
+.search-icon{
+     opacity: 0.6;
+     position: absolute;
+     top: 15px;
+     left: 20px;
+}
+.voice-mic{
+     position: absolute;
+     top: 10px;
+     right: 60px;
+}
+.google-cemera{
+     width: 22px;
+     position: absolute;
+     top: 10px;
+     right: 20px;
+}
+
+
+/* Main Card Code Start */
+
+.main-card{
+     width: 600px;
+     margin: 20px auto;
+     display: grid;
+     grid-template-columns: repeat(5, 1fr);
+}
+.singleCard{
+     padding: 20px;
+     text-align: center;
+     cursor: pointer;
+     transition: 0.1s;
+}
+.singleCard i{
+     color: red;
+     margin-bottom: 10px;
+     background-color: rgba(128, 128, 128, 0.174);
+     padding: 10px;
+     border-radius: 50%;
+}
+.singleCard:hover{
+     background-color: rgba(243, 217, 217, 0.581);
+}
